@@ -17,7 +17,22 @@
 
 </head>
 
-<body class="player device-cursor-web mobile-device-true " " id=" mbd">
+<body class="body">
+<div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
+  <div class="navigation">
+  <a href="/" class="circle-link"></a>
+    <div class="nav-box">
+      <nav role="navigation" class="navigation-items">
+        <a href="/" class="nav-curr">ABOUT</a>
+        <a href="/work" class="nav-link">EXPERIENCE</a>
+        <a href="/projects" class="nav-link">PROJECTS</a>
+        <a href="/activities" class="nav-link">PROFESSIONAL ACTIVITIES</a>
+        <a href="/contact" class="nav-curr">CONTACT</a>
+      </nav>
+    </div>
+  </div>
+<div>
+
   <h1> Hi! I'm Simone.</h1>
   <p>It's nice to meet you.</p>
 
