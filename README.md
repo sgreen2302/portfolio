@@ -1,4 +1,5 @@
-# Welcome to my portfolio!
+# Simone Green
+## upcoming graduate student & cybersecurity professional
 
 <html lang="en">
 
@@ -17,9 +18,7 @@
 </head>
 
 <body class="player device-cursor-web mobile-device-true " " id=" mbd">
-<header
-  <h1> Simone Green</h1>
-  <p>Hi! I'm Simone.</p>
+  <h1> Hi! I'm Simone.</h1>
   <p>It's nice to meet you.</p>
 
 </body>
