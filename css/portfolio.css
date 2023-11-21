@@ -1961,6 +1961,7 @@ figcaption {
 
 #contact-message {
   grid-area: 2 / 1 / 3 / 3;
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
