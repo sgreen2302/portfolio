@@ -7,7 +7,7 @@
   <meta content="Academics & Experience" property="og:title">
   <meta content="Academics & Experience" property="twitter:title">
   <meta property="og:image" content="images/simone-logo.jpeg">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/portfolio.css" rel="stylesheet" type="text/css">
@@ -40,138 +40,165 @@
         <a href="projects/project-home.html" class="navigation-item w-nav-link">PROJECTS</a>
         <a href="contact.html" class="navigation-item w-nav-link">CONTACT</a>
       </nav>
-      <div class="menu-button w-nav-button"><img src="images/menu-icon_1menu-icon.png" width="22" alt=""
-          class="menu-icon"></div>
+      <!-- Resize -->
+      <!-- <div class="menu-button w-nav-button"><img src="images/menu-icon_1menu-icon.png" width="22" alt=""
+          class="menu-icon"></div> -->
     </div>
   </div>
   </div>
-  <div class="section">
+  <h2 class="heading">Academics & Experience</h2>
+  <p class="paragraph-7">Click on the buttons inside the tabbed menu!</p>
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Academics')">Academics</button>
+    <button class="tablinks" onclick="openCity(event, 'Experience')">Experience</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="Academics" class="tabcontent">
+    <h1 class="heading-3">My Academics</h1>
+
     <div class="container">
-      <div data-current="Academics" data-easing="ease" data-duration-in="300" data-duration-out="100"
-        class="tabs w-tabs">
-        <div class="w-tab-menu">
-          <a data-w-tab="Academics" class="tab-link-academics w-inline-block w-tab-link w--current">
-            <div class="text-block">Academics</div>
-          </a>
-          <a data-w-tab="Experience" class="tab-link-experience w-inline-block w-tab-link">
-            <div class="text-block-2">Experience</div>
-          </a>
-        </div>
-        <div class="w-tab-content">
-          <div data-w-tab="Academics" class="tab-active">
-            <section>
-              <h1 class="heading-3">My Academics</h1>
-            </section>
-            <section>
-              <div class="w-layout-blockcontainer logo-left-lister w-container"><img src="images/cornell-logo-3.gif"
-                  loading="lazy" width="213" alt="" class="image">
-                <div class="w-layout-blockcontainer w-container">
-                  <p class="paragraph-3"><span class="highlight-pink"><strong>Cornell University</strong></span>,
-                    <em>College of Engineering</em><br><em>Bowers College of Computing and Information
-                      Science</em><br>Bachelor&#x27;s of Science in Computer Science<br>‍<br><span
-                      class="highlight-orange">Minors</span>:<br>
-                  </p>
-                  <ul role="list">
-                    <li>Information Ethics, Law, and Policy</li>
-                    <li>Law &amp; Society</li>
-                  </ul>
-                  <p class="paragraph-6"><span class="highlight-orange">Relevant Courses</span>:</p>
-                  <div class="w-row">
-                    <div class="w-col w-col-6">
-                      <ul role="list">
-                        <li>Objected Oriented/Functional Programming &amp; Data Structures </li>
-                        <li>Backend Development </li>
-                        <li>Discret Structures</li>
-                        <li>Analysis of Algorithms</li>
-                      </ul>
-                    </div>
-                    <div class="w-col w-col-6">
-                      <ul role="list">
-                        <li>Law, Politics, &amp; Policy of Cybersecurity</li>
-                        <li>Information Ethics, Law, and Policy</li>
-                        <li>Backend Development</li>
-                        <li>Operating Systems</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <p class="paragraph-4"><strong>Grad</strong>: May 2024<br><strong>GPA</strong>: 3.7</p>
-              </div>
-              <div class="w-layout-blockcontainer logo-right-lister w-container"><img src="images/dis-logo.svg"
-                  loading="lazy" width="240" alt="" class="image-2">
-                <p class="paragraph-4"><strong>Dates</strong>: January - May 2023<br><strong>GPA</strong>: 4.0</p>
-                <div class="w-layout-blockcontainer w-container">
-                  <p class="paragraph-5"><span class="highlight-pink"><strong>DIS: Study Abroad in
-                        Scandinavia</strong></span>, <em>Copenhagen, Denmark<br></em>Study Abroad Program in Computer
-                    Science, Political Science, and Law<em><br></em></p>
-                  <p class="paragraph-6"><span class="highlight-orange">Relevant Courses</span>:</p>
-                  <ul role="list">
-                    <li>Cyberwarfare</li>
-                    <li>Shadow Wars &amp; Hybrid Warfare</li>
-                    <li>Artificial Neural Networks &amp; Deep Learning</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div data-w-tab="Experience" class="tab">
-            <section>
-              <h1 class="heading-3">My Professional Experience</h1>
-            </section>
-            <section>
-              <div class="w-layout-blockcontainer logo-left-lister w-container"><img src="images/cornell-logo-3.gif"
-                  loading="lazy" width="161" alt="" class="company-logo">
-                <div class="w-layout-blockcontainer w-container">
-                  <p class="paragraph-3"><span class="highlight-pink"><strong>Undergraduate Teaching
-                        Assistant</strong></span>, <br>‍<strong><em>Cornell Bowers College of Computing
-                        &amp; Information Science</em></strong><br></p>
-                  <ul role="list" class="list">
-                    <li class="list-item"> Assist in general organization, communications, and grading for Computer
-                      System Organization course of <strong>350+ students</strong> </li>
-                    <li class="list-item-2">Co-lead weekly lab section of <strong>40 students </strong>and host weekly
-                      office hours to reinforce content and address questions. </li>
-                    <li class="list-item-3">Act as a liaison between course staff and the Engineering Learning office to
-                      direct content for supplemental courses. </li>
-                  </ul>
-                </div>
-                <p class="paragraph-4">July 2022 - Present<br><em>Ithaca, NY</em></p>
-              </div>
-              <div class="w-layout-blockcontainer logo-right-lister w-container"><img src="images/blackrock-circle.png"
-                  loading="lazy" width="160" alt="" class="company-logo">
-                <p class="paragraph-4">June - Aug 2023<br><em>Wilmington, DE</em></p>
-                <p class="paragraph-5"><span class="highlight-pink"><strong>Cyber Threat Intelligence
-                      Intern</strong></span><strong>, <em>BlackRock</em><br></strong><em><br></em></p>
-              </div>
-              <div class="w-layout-blockcontainer logo-left-lister w-container"><img src="images/cornell-logo-3.gif"
-                  loading="lazy" width="161" alt="" class="company-logo">
-                <p class="paragraph-3"><span class="highlight-pink"><strong>Academic Excellence Worship
-                      Facilitator</strong></span><strong><em>, <br>Cornell Engineering</em></strong><em><br></em><span
-                    class="highlight-orange">    </span><br><br></p>
-                <p class="paragraph-4">Aug 2021 - Dec 2022<br><em>Ithaca, NY</em></p>
-              </div>
-              <div class="w-layout-blockcontainer logo-right-lister w-container"><img src="images/bofa-logo.png"
-                  loading="lazy" width="240" sizes="160px" alt=""
-                  srcset="images/bofa-logo.png 500w, images/bofa-logo.png 800w, images/bofa-logo.png 1024w"
-                  class="company-logo">
-                <p class="paragraph-4">June - Aug 2022<br><em>Charlotte, NC</em></p>
-                <p class="paragraph-5"><span class="highlight-pink"><strong>Global Technology Summer
-                      Analyst</strong></span><strong><em>, Bank of
-                      America</em></strong><span><em><br></em></span><em><br></em></p>
-              </div>
-              <div class="w-layout-blockcontainer logo-left-lister w-container"><img src="images/mitre-logo.png"
-                  loading="lazy" width="161" sizes="160px" alt=""
-                  srcset="images/mitre-logo.png 500w, images/mitre-logo.png 800w, images/mitre-logo.png 1080w, images/mitre-logo.png 1600w, images/mitre-logo.png 1920w"
-                  class="company-logo">
-                <p class="paragraph-3"><span class="highlight-pink"><strong>Cybersecurity Intelligence
-                      Intern</strong></span><strong><em>,<br>The MITRE Corporation</em></strong><em><br><br></em><span
-                    class="highlight-orange"><br>    </span><br><br></p>
-                <p class="paragraph-4">June 2021 - May 2022<br><em>Remote</em></p>
-              </div>
-            </section>
-          </div>
-        </div>
+      <div>
       </div>
+      <section>
+        <div class="w-layout-blockcontainer logo-left-lister w-container"><img src="images/cornell-logo-3.gif"
+            loading="lazy" width="213" alt="" class="image">
+          <div class="w-layout-blockcontainer w-container">
+            <p class="paragraph-3"><span class="highlight-pink"><strong>Cornell University</strong></span>,
+              <em>College of Engineering</em><br><em>Bowers College of Computing and Information
+                Science</em><br>Bachelor&#x27;s of Science in Computer Science<br>‍<br><span
+                class="highlight-orange">Minors</span>:<br>
+            </p>
+            <ul role="list">
+              <li>Information Ethics, Law, and Policy</li>
+              <li>Law &amp; Society</li>
+            </ul>
+            <p class="paragraph-6"><span class="highlight-orange">Relevant Courses</span>:</p>
+            <div class="w-row">
+              <div class="w-col w-col-6">
+                <ul role="list">
+                  <li>Objected Oriented/Functional Programming &amp; Data Structures </li>
+                  <li>Backend Development </li>
+                  <li>Discret Structures</li>
+                  <li>Analysis of Algorithms</li>
+                </ul>
+              </div>
+              <div class="w-col w-col-6">
+                <ul role="list">
+                  <li>Law, Politics, &amp; Policy of Cybersecurity</li>
+                  <li>Information Ethics, Law, and Policy</li>
+                  <li>Backend Development</li>
+                  <li>Operating Systems</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="paragraph-4"><strong>Grad</strong>: May 2024<br><strong>GPA</strong>: 3.7</p>
+        </div>
+        <div class="w-layout-blockcontainer logo-right-lister w-container"><img src="images/dis-logo.svg" loading="lazy"
+            width="240" alt="" class="image-2">
+          <p class="paragraph-4"><strong>Dates</strong>: January - May 2023<br><strong>GPA</strong>: 4.0</p>
+          <div class="w-layout-blockcontainer w-container">
+            <p class="paragraph-5"><span class="highlight-pink"><strong>DIS: Study Abroad in
+                  Scandinavia</strong></span>, <em>Copenhagen, Denmark<br></em>Study Abroad Program in Computer
+              Science, Political Science, and Law<em><br></em></p>
+            <p class="paragraph-6"><span class="highlight-orange">Relevant Courses</span>:</p>
+            <ul role="list">
+              <li>Cyberwarfare</li>
+              <li>Shadow Wars &amp; Hybrid Warfare</li>
+              <li>Artificial Neural Networks &amp; Deep Learning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
+  </div>
+  <!-- Experience Tab-->
+  <div id="Experience" class="tabcontent">
+    <h1 class="heading-3">My Professional Experience</h1>
+
+    <div class="container">
+
+      <section>
+      </section>
+      <section>
+        <div class="w-layout-blockcontainer logo-left-lister w-container"><img src="images/cornell-logo-3.gif"
+            loading="lazy" width="160" alt="" class="company-logo">
+          <div class="w-layout-blockcontainer w-container">
+            <p class="paragraph-3"><span class="highlight-pink"><strong>Undergraduate Teaching
+                  Assistant</strong></span>, <br>‍<strong><em>Cornell Bowers College of Computing
+                  &amp; Information Science</em></strong><br></p>
+            <ul role="list" class="list">
+              <li class="list-item"> Assist in general organization, communications, and grading for Computer
+                System Organization course of <strong>350+ students</strong> </li>
+              <li class="list-item-2">Co-lead weekly lab section of <strong>40 students </strong>and host weekly
+                office hours to reinforce content and address questions. </li>
+              <li class="list-item-3">Act as a liaison between course staff and the Engineering Learning office
+                to
+                direct content for supplemental courses. </li>
+            </ul>
+          </div>
+          <p class="paragraph-4">July 2022 - Present<br><em>Ithaca, NY</em></p>
+        </div>
+        <div class="w-layout-blockcontainer logo-right-lister w-container"><img src="images/blackrock-circle.png"
+            loading="lazy" height="160" alt="" class="company-logo">
+          <div class="w-layout-blockcontainer w-container">
+            <p class="paragraph-3"><span class="highlight-pink"><strong>Cyber Threat Intelligence
+                  Intern</strong></span><strong>, <em>BlackRock</em><br></strong></p>
+            <ul role="list" class="list">
+              <li class="list-item"> Contributed to <strong>5 threat monitoring reports</strong> under weekly deadlines
+                for information,
+                which prompted actionable next steps. </li>
+              <li class="list-item-2">Implemented action plans to address phishing and brand-related threats identified
+                using <strong>Splunk</strong> and <strong>DomainTools</strong>. </li>
+              <li class="list-item-3">Gathered requested intelligence for incident response analysts and provided
+                support
+                for ongoing investigations via
+                <strong>Proofpoint, Flashpoint,</strong> and <strong>Recorded Future</strong>.
+              </li>
+            </ul>
+          </div>
+          <p class="paragraph-4">June - Aug 2023<br><em>Wilmington, DE</em></p>
+
+
+        </div>
+        <div class="w-layout-blockcontainer logo-left-lister w-container">
+          <a href="https://www.engineering.cornell.edu/eli/aew">
+            <img src="images/cornell-logo-3.gif" loading="lazy" width="161" alt="" class="company-logo">
+          </a>
+          <p class="paragraph-3"><span class="highlight-pink"><strong>Academic Excellence Worship
+                Facilitator</strong></span><strong><em>, <br>Cornell Engineering</em></strong><em><br></em><span
+              class="highlight-orange">    </span><br><br></p>
+          <p class="paragraph-4">Aug 2021 - Dec 2022<br><em>Ithaca, NY</em></p>
+        </div>
+        <div class="w-layout-blockcontainer logo-right-lister w-container"><img src="images/bofa-logo.png"
+            loading="lazy" width="240" sizes="160px" alt=""
+            srcset="images/bofa-logo.png 500w, images/bofa-logo.png 800w, images/bofa-logo.png 1024w"
+            class="company-logo">
+          <p class="paragraph-4">June - Aug 2022<br><em>Charlotte, NC</em></p>
+          <p class="paragraph-5"><span class="highlight-pink"><strong>Global Technology Summer
+                Analyst</strong></span><strong><em>, Bank of
+                America</em></strong><span><em><br></em></span><em><br></em></p>
+        </div>
+        <div class="w-layout-blockcontainer logo-left-lister w-container"><img src="images/mitre-logo.png"
+            loading="lazy" width="161" sizes="160px" alt=""
+            srcset="images/mitre-logo.png 500w, images/mitre-logo.png 800w, images/mitre-logo.png 1080w, images/mitre-logo.png 1600w, images/mitre-logo.png 1920w"
+            class="company-logo">
+          <p class="paragraph-3"><span class="highlight-pink"><strong>Cybersecurity Intelligence
+                Intern</strong></span><strong><em>,<br>The MITRE Corporation</em></strong><em><br><br></em><span
+              class="highlight-orange"><br>    </span><br><br></p>
+          <p class="paragraph-4">June 2021 - May 2022<br><em>Remote</em></p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+  </div>
+
   </div>
   <div class="footer-wrap">
     <div>
@@ -198,6 +225,26 @@
     type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
+  <script> function openCity(evt, cityName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }</script>
 </body>
 
 </html>

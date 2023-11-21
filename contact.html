@@ -54,19 +54,18 @@
         </div>
         <div class="contact-form-wrap">
           <div class="w-form">
-            <form id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" method="get"
-              class="contact-form" data-wf-page-id="653ffc8a30d5e24ea38db534"
-              data-wf-element-id="d783a17e-0b35-a13a-0448-a852d0df4a30">
+            <form id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" method="post"
+              action="contact-form-process.php" class="contact-form" data-wf-page-id="653ffc8a30d5e24ea38db534"
+              data-wf-element-id="contact-name">
               <div class="w-layout-grid contact-form-grid">
-                <div id="w-node-d783a17e-0b35-a13a-0448-a852d0df4a32-d0df4a24"><label for="Name-3">Name</label><input
-                    type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name"
-                    placeholder="Enter your name" id="Name"></div>
-                <div id="w-node-d783a17e-0b35-a13a-0448-a852d0df4a36-d0df4a24"><label for="Email-3">Email
+                <div id="contact-name"><label for="Name">Name</label><input type="text" class="text-field w-input"
+                    maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name"></div>
+                <div id="contact-email"><label for="Email">Email
                     Address</label><input type="email" class="text-field w-input" maxlength="256" name="Email"
                     data-name="Email" placeholder="Enter your email" id="Email" required=""></div>
-                <div id="w-node-d783a17e-0b35-a13a-0448-a852d0df4a3a-d0df4a24"><label
-                    for="Message">Message</label><textarea id="Message" name="Message" placeholder="Enter your message"
-                    maxlength="5000" data-name="Message" class="text-field cc-textarea w-input"></textarea></div>
+                <div id="contact-message"><label for="Message">Message</label><textarea id="Message" name="Message"
+                    placeholder="Enter your message" maxlength="5000" data-name="Message"
+                    class="text-field cc-textarea w-input"></textarea></div>
               </div><input type="submit" value="Submit" data-wait="Please wait..." class="button w-button">
             </form>
             <div class="status-message cc-success-message w-form-done">
@@ -90,10 +89,7 @@
             srcset="images/github-logo-p-500.png 500w, images/github-logo.png 512w" alt="" class="logo">
           <a href="https://github.com/sgreen2302" target="_blank" class="footer-item">GITHUB</a>
           <div class="rich-text-block w-richtext">
-            <p><strong>Email:</strong></p>
-            <p>
-              <a href="mailto:sfg63@cornell.edu">sfg63@cornell.edu</a>
-            </p>
+            <p><strong><a href="mailto:sfg63@cornell.edu">Email</a></strong></p>
             <p><strong>Media:</strong></p>
           </div>
         </div>
@@ -126,5 +122,7 @@
     crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
 </body>
+
+
 
 </html>
