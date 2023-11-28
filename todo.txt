@@ -9,4 +9,4 @@ CHANGES:
  - change the purpose and use as per meeting
  - add links to rest of activities
  - get apo logo
- 
+ - add skills somewhere!

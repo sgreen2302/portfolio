@@ -396,12 +396,26 @@ figcaption {
   /* transition: background-color .4s, opacity .4s, color .4s; */
 }
 
-.button:hover {
+.button-2 {
+  color: #fff;
+  background-color: #f17b50;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12pt;
+  padding: 12px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.button:hover,
+.button-2:hover {
   color: #e5a078;
   background-color: #32343a;
 }
 
-.button:active {
+.button:active,
+.button-2.active {
   color: #dd9b9b;
   background-color: #43464d;
 }
@@ -544,7 +558,7 @@ figcaption {
   /* Some padding */
   border-radius: 10px;
   /* Rounded corners */
-  font-size: 18px;
+  font-size: 14px;
   /* Increase font size */
 }
 
@@ -1260,10 +1274,7 @@ figcaption {
   margin-top: 20px;
 }
 
-.button-2 {
-  background-color: #f17b50;
-  font-family: Bitter, serif;
-}
+
 
 .aboutme {
   grid-column-gap: 20px;
