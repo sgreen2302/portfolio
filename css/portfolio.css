@@ -393,7 +393,7 @@ figcaption {
   font-size: 12px;
   line-height: 20px;
   text-decoration: none;
-  /* transition: background-color .4s, opacity .4s, color .4s; */
+  transition: background-color .4s, opacity .4s, color .4s;
 }
 
 .button-2 {
@@ -406,6 +406,8 @@ figcaption {
   font-size: 12px;
   line-height: 20px;
   text-decoration: none;
+  transition: background-color .4s, opacity .4s, color .4s;
+
 }
 
 .button:hover,
@@ -560,6 +562,8 @@ figcaption {
   /* Rounded corners */
   font-size: 14px;
   /* Increase font size */
+  transition: background-color .4s, opacity .4s, color .4s;
+
 }
 
 .intro-wrap {
