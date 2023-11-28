@@ -23,6 +23,27 @@
 </head>
 
 <body class="body">
+  <button class="button" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script>// Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+    } </script>
   <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
     role="banner" class="navigation w-nav">
     <a href="/" aria-current="page">
@@ -57,7 +78,7 @@
             graduate education and roles concentrating in <span class="highlight-pink">the field of
               cybersecurity</span>.</p>
           <div class="w-layout-blockcontainer container-2 w-container">
-            <a href="#about" class="button-2 w-button">More About Me &gt;</a>
+            <a href="#about" class="button-2 w-button pill-shape">More About Me &gt;</a>
           </div>
         </div><img src="images/Simone_Green_Headshot.jpg" alt=""
           id="w-node-_9b2922ad-09b1-aebb-0430-7dee623c62c8-e3382b46" height="600"

@@ -1,0 +1,12 @@
+CHANGES:
+ - added "to top" button
+ - added photo gallery to activities
+ - added details to activities
+
+ TO DO:
+ - order activities photos in better "collage" vibe
+ - add details for remaining professional experiences
+ - change the purpose and use as per meeting
+ - add links to rest of activities
+ - get apo logo
+ 

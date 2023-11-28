@@ -13,6 +13,68 @@
   display: block;
 }
 
+.pill-shape {
+  border: 2px solid #fff;
+  border-radius: 50px;
+
+}
+
+.collage {
+  text-align: center;
+  flex: 0 auto;
+  align-self: stretch;
+}
+
+.w-layout-cell {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.body-4 {
+  text-align: left;
+}
+
+.container-6 {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.container-7 {
+  text-align: center;
+}
+
+.heading-4 {
+  font-weight: 500;
+}
+
+.container-8 {
+  text-align: left;
+  flex: 1;
+  display: block;
+}
+
+.image-4 {
+  width: 40%;
+}
+
+.container-9 {
+  flex: 1;
+}
+
+.cell {
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-2 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -327,12 +389,11 @@ figcaption {
   letter-spacing: 2px;
   text-transform: uppercase;
   background-color: #c0530a;
-  border-radius: 0;
   padding: 12px 25px;
   font-size: 12px;
   line-height: 20px;
   text-decoration: none;
-  transition: background-color .4s, opacity .4s, color .4s;
+  /* transition: background-color .4s, opacity .4s, color .4s; */
 }
 
 .button:hover {
@@ -460,6 +521,31 @@ figcaption {
   background-color: #fcf4f4;
   position: sticky;
   top: 0;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 100px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
 }
 
 .intro-wrap {
