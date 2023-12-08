@@ -64,6 +64,67 @@
   flex: 1;
 }
 
+.container-11 {
+  object-fit: scale-down;
+  overflow: visible;
+}
+
+.award-banners {
+  object-fit: fill;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  display: flex;
+  overflow: scroll;
+}
+
+.award,
+.honor {
+  transition: background-color .4s, opacity .4s, color .4s;
+}
+
+.click-zoom input[type=checkbox] {
+  display: outside
+}
+
+.click-zoom img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
+}
+
+.box {
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.horiz-boxes {
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+.collage {
+  object-fit: contain;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .cell {
   justify-content: center;
   align-items: center;
