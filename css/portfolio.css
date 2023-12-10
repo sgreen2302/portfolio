@@ -1662,7 +1662,9 @@ figcaption {
   .about-intro-grid {
     grid-row-gap: 50px;
     text-align: center;
+    flex-direction: column;
     grid-template: "."
+
       "."
       / 1fr;
   }
